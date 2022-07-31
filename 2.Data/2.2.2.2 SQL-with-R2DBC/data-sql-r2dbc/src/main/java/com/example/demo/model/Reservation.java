@@ -13,6 +13,6 @@ import lombok.NoArgsConstructor;
 @Builder
 public class Reservation {
 	@Id
-	private String id;
+	private Long id;
 	private String name;
 }
